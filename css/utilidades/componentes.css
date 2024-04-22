@@ -1,0 +1,6 @@
+header .btn-contato button {
+    padding: 10px 40px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
