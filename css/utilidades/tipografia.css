@@ -21,3 +21,41 @@
 .tamanho {
     font-size: 59px;
 }
+
+
+@media (max-width:1206px) {
+    .font-1-m {
+        font-size: 1.18rem;
+    }
+    .font-logo {
+        font-size: 0.650rem;
+    }
+}
+
+@media (max-width:1100px) {
+    .font-1-m {
+        font-size: 1.10rem;
+    }
+    .font-logo {
+        font-size: 0.6rem;
+    }
+}
+
+@media (max-width:1049px) {
+    .font-1-m {
+        font-size: 1.05rem;
+    }
+    .font-logo {
+        font-size: 0.550rem;
+    }
+}
+
+@media (max-width:981px) {
+    .font-1-m {
+        font-size: 1rem;
+    }
+    .font-logo {
+        font-size: 0.5rem;
+    }
+}
+

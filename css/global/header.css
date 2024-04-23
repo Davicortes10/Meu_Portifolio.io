@@ -22,3 +22,13 @@ header a:hover {
     transform: scale(1.05);
     transition: 0.2s;
 }
+
+@media (max-width:1202px) {
+    header {
+        margin-top: 35px;
+        padding: 10px 3%;
+    }
+    header nav ul li {
+        padding: 0 20px;
+    }
+}
