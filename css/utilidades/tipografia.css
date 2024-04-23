@@ -2,6 +2,22 @@
     font: 400 0.75rem/1.35 "JetBrains Mono", sans-serif;
 }
 
-.font-1-m, .font-1-m-b{
-    font: 500 1.25rem/1.35 "Poppins", sans-serif;
+.font-1-m{
+    font: 500 1.30rem/1.35 "Poppins", sans-serif;
+}
+
+.font-1-m-b{
+    font: 500 1.09rem/1.35 "Poppins", sans-serif;
+    margin: 40px 0;
+}
+
+.font-2-l-b {
+    font-size: 45px;
+    text-transform: uppercase;
+    line-height: 40px;
+}
+
+
+.tamanho {
+    font-size: 59px;
 }
