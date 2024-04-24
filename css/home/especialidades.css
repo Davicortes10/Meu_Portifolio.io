@@ -1,0 +1,19 @@
+section.especialidades {
+    padding: 40px 4%;
+}
+
+section.especialidades .flex{
+    gap: 60px;
+}
+
+.especialidades .especialidades-box {
+    padding: 40px;
+    margin-top: 45px;
+    border-radius: 8px;
+}
+
+.especialidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 8px var(--cor-w0);
+    transition: 0.3s;
+}
