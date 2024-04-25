@@ -1,0 +1,56 @@
+section.sobre {
+    padding: 40px 4%;
+    margin-top: 20px; 
+}
+
+.sobre {
+    display: flex;
+    align-items: center;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre h2 span {
+    display: block;
+}
+
+.sobre .txt-sobre p{
+    margin: 20px 0;
+    text-align: justify;
+}
+
+.bg {
+    width: 37px;
+    height: 37px;
+}
+
+.sobre .txt-sobre .btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background: var(--cor-blue1);
+    font-size: 34px;
+    cursor: pointer;
+}
+.btn-social {
+    display: flex;
+    justify-content: center;
+}
+.ajuste {
+    display: inline-block;
+}
+.margem {
+    margin-left: 27px;
+    margin-right: 27px;
+}
+
+.btn-social a button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+

@@ -1,5 +1,7 @@
 section.especialidades {
     padding: 40px 4%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
 }
 
 section.especialidades .flex{

@@ -1,12 +1,12 @@
 .btn-contato button {
-    padding: 10px 40px;
+    padding: 10px 80px;
     border-radius: 20px;
     border: none;
     cursor: pointer;
     background-color: var(--cor-blue1);
 }
 
-.btn-contato button:hover {
+button:hover {
     transform: scale(1.05);
     transition: 0.2s;
 }

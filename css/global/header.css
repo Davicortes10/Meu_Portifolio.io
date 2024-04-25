@@ -1,5 +1,7 @@
 header {
     padding: 40px 4%;
+    max-width: 100%;
+    box-sizing: border-box;
 }
 
 header > .interface {

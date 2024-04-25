@@ -15,6 +15,10 @@ body{
     
 }
 
+.altura {
+    height: 100vh;
+}
+
 .alinhar {
     display: flex;
     align-items: start;
