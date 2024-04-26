@@ -2,6 +2,7 @@ section.especialidades {
     padding: 40px 4%;
     box-sizing: border-box;
     margin-bottom: 20px;
+    max-height: 100vh;
 }
 
 section.especialidades .flex{
@@ -15,7 +16,8 @@ section.especialidades .flex{
 }
 
 .especialidades .especialidades-box:hover {
-    transform: scale(1.05);
+    transform: scale(0.950);
     box-shadow: 0 0 8px var(--cor-w0);
     transition: 0.3s;
+    z-index: 999;
 }

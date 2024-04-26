@@ -1,0 +1,52 @@
+section.portifolio {
+    padding: 80px 4%;
+    display: block;
+    height: auto;
+}
+
+section.portifolio .flex {
+    justify-content: space-around;
+}
+
+section.portifolio .interface h2 {
+    padding: 40px;
+}
+
+.carrosel {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    white-space: nowrap;
+}
+.img-port {
+    flex: 0 0 auto;
+    width: 360px;
+    height: 460px;
+    margin-right: 20px;
+    scroll-snap-align: start;
+    background-color: var(--cor-blue1);
+    border-radius: 40px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--cor-b2);
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--cor-w0);
+    opacity: 0;
+}
+
+.overlay:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
