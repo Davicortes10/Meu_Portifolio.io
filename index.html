@@ -21,15 +21,38 @@
 
             <nav class="menu-desktop cor-blue font-1-m">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Especialidades</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Projetos</a></li>
+                    <li><a class="desaparecer" href="#">Início</a></li>
+                    <li><a class="desaparecer" href="#">Especialidades</a></li>
+                    <li><a class="desaparecer" href="#">Sobre</a></li>
+                    <li><a class="desaparecer" href="#">Projetos</a></li>
                 </ul>
             </nav>
 
             <div class="btn-contato">
                 <a href="#"><button class="font-1-m">Contato</button></a>
+            </div>
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <img src="./imagens/icones/bars.svg" alt="">
+            </div>
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <img class="icone_fechar" src="./imagens/icones/icone_fechar.svg" alt="Icone de fechar">
+                </div>
+
+                <nav class="nav-bar-hamburguer font-menu-mobile cor-w0">
+                    <ul>
+                        <li><a href="#">Início</a></li>
+                        <li><a href="#">Especialidades</a></li>
+                        <li><a href="#">Sobre</a></li>
+                        <li><a href="#">Projetos</a></li>
+                        <li><a href="#">Contato</a></li>
+                    </ul>
+                </nav>
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay">
+
             </div>
         </div><!--interface-->
     </header>
@@ -166,7 +189,7 @@
             </div><!--interface-->
         </section><!--Sobre-->
 
-        <section class="portifolio">
+        <section class="portifolio altura">
             <div class="interface">
                 <h2 class="font-2-l-c cor-w0">MEU <span class="cor-blue">PORTFÓLIO.</span></h2>
                 <div class="carrosel font-1-m">
@@ -211,7 +234,7 @@
             </div><!--interface-->
         </section><!--portifolio-->
 
-        <section class="formulario">
+        <section class="formulario altura">
             <div class="interface">
                 <h2 class="font-2-l-c cor-w0">FALA <span class="cor-blue">COMIGO.</span></h2>]
                 <form action="">
@@ -226,5 +249,45 @@
             </div><!--interface-->
         </section><!--Formulario-->
     </main>
+
+    <footer class="footer-bg">
+        <div class="footer container">
+            <h1 class="cor-w0">&lt;Meu_<span class="cor-blue">Portifolio</span>/&gt;</h1>
+            <div class="footer-contato">
+                <h3 class="font-2-l-b cor-0">Contato</h3>
+                <ul class="font-2-m cor-w0">
+                    <li><a href="tel:+5598983080010">+55 (98) 98308-0010</a></li>
+                    <li><a href="mailto:davicortes.oliveira1@gmail.com">davicortes.oliveira1@gmail.com</a></li>
+                    <li>Rua da Saudade, Cohama</li>
+                    <li>São Luís - MA</li>
+                </ul>
+                <div class="footer-redes">
+                    <a href="./">
+                        <img src="./imagens/img/redes/instagram.svg" alt="Instagram">
+                    </a>
+                    <a href="./">
+                        <img src="./imagens/img/redes/facebook.svg" alt="Facebook">
+                    </a>
+                    <a href="./">
+                        <img src="./imagens/img/redes/youtube.svg" alt="Youtube">
+                    </a>
+                </div>
+            </div>
+            <div class="footer-informacoes">
+                <h3 class="font-2-l-b cor-0">Informações</h3>
+                <nav>
+                    <ul class="font-1-m-c cor-w0">
+                        <li><a href="./bicicletas.html">Ínicio</a></li>
+                        <li><a href="./seguros.html">Especialidades</a></li>
+                        <li><a href="./contato.html">Sobre</a></li>
+                        <li><a href="./termos.html">Projetos</a></li>
+                    </ul>
+                </nav>
+                
+            </div>
+            <p class="footer-copy font-2-m cor-w0">Meu_<span class="cor-blue">Portifolio</span> Alguns direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="/javascript/menu_hamburguer.js" defer></script>
 </body>
 </html>

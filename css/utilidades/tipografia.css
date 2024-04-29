@@ -5,7 +5,9 @@
 .font-1-m{
     font: 500 1.30rem/1.35 "Poppins", sans-serif;
 }
-
+.font-1-m-c{
+    font: 400 1.125rem/1.35 "Poppins", sans-serif;
+}
 .font-1-m-b{
     font: 500 1.09rem/1.35 "Poppins", sans-serif;
     margin: 40px 0;
@@ -16,6 +18,11 @@
     text-transform: uppercase;
     line-height: 40px;
 }
+
+.font-2-m {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;
+}
+
 .font-forms{
     font-size: 18px;
 }
@@ -37,6 +44,11 @@
     font-size: 40px;
     line-height: 40px;
     margin-bottom: 30px;
+}
+
+.font-menu-mobile {
+    font-size: 20px;
+    font-weight: 300;
 }
 
 

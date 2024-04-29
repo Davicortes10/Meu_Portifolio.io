@@ -1,3 +1,12 @@
+.container {
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 form .btn-enviar input {
     width: 120px;
     background-color: var(--cor-blue1);
@@ -33,6 +42,11 @@ button:hover, form .btn-enviar input:hover {
 @media (max-width:981px) {
     .btn-contato button {
         padding: 6px 19px; /**/
+    }
+}
+@media (max-width:600px) {
+    .btn-contato {
+        display: none;
     }
 }
 

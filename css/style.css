@@ -6,6 +6,7 @@
 
 /*Utilidades*/
 @import "/css/utilidades/componentes.css";
+@import "/css/utilidades/menu_hamburguer.css";
 
 /*Home*/
 @import "/css/home/introducao.css";
@@ -13,3 +14,4 @@
 @import "./home/sobre.css";
 @import "/css/home/portfolio.css";
 @import "/css/home/formulario.css";
+@import "/css/home/footer.css";
