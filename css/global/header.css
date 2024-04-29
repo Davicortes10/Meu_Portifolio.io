@@ -45,4 +45,19 @@ header nav.menu-desktop a:hover {
         padding: 0 20px;
     }
 }
+@media (max-width:1182px) {
+    header.cabecalho nav.menu-desktop li {
+        padding: 0 20px;
+    }
+}
+@media (max-width:780px) {
+    header.cabecalho nav.menu-desktop li {
+        padding: 0 5px;
+    }
+}
+@media (max-width: 652px) {
+    header > .interface {
+        justify-content: center;
+    }
+}
 

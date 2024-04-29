@@ -93,3 +93,9 @@
     }
 }
 
+@media (max-width:652px) {
+    .font-logo {
+        font-size: 0.6rem;
+    }
+}
+

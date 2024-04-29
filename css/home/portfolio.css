@@ -16,8 +16,6 @@ section.portifolio .interface h2 {
     display: flex;
     overflow-x: auto;
     scroll-snap-type: x mandatory;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
     white-space: nowrap;
 }
 .img-port {
@@ -49,4 +47,11 @@ section.portifolio .interface h2 {
 .overlay:hover {
     opacity: 1;
     transition: 0.3s;
+}
+
+@media (max-width:652px) {
+    .carrosel {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
 }

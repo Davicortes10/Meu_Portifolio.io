@@ -44,7 +44,7 @@ button:hover, form .btn-enviar input:hover {
         padding: 6px 19px; /**/
     }
 }
-@media (max-width:600px) {
+@media (max-width:652px) {
     .btn-contato {
         display: none;
     }
